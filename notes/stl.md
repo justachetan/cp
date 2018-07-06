@@ -81,7 +81,7 @@ vector<int>::iterator it; // To declare the iterator for vector
 - ```const_iterator```
 - ```reverse_iterator```
 
-# Algorithms in STL
+## Algorithms in STL
 
 - ```#include <algorithm>```
 - ```reverse()```
@@ -121,9 +121,17 @@ void f(const vector<int> &v){
 
 ```
 
-# Data Manipulation in vectors
+## Data Manipulation in vectors
 
-- ```insert(i, 42)```: insert 42 after the index i
+- ```insert(i, 42)```: insert 42 at the index i
+- ```insert(i, all(v))```: inset all elements of v at index i
+
+- ```erase(iterator)```: single element deleted
+- ```erase(begin iterator, end iterator)```: range deleted
+
+## Strings
+
+- Different from ```vector<char>``` due to string manipulation functions and memory management policy
 
 
 
